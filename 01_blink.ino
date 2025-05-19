@@ -21,5 +21,10 @@ void loop() {
 	digitalWrite(led_yellow, 	HIGH);
 	digitalWrite(led_green, 	LOW);
 	delay(1000);
-	
+
+	// Turn the red LED on and the other LEDs off
+	digitalWrite(led_red,		HIGH);
+	digitalWrite(led_yellow, 	LOW);
+	digitalWrite(led_green, 	LOW);
+	delay(3000);
 }
