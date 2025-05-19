@@ -1,3 +1,8 @@
+/**
+ * CopyRight:
+ * This code is provide by TinkerCAD
+ */
+
 int led_red = 		0;
 int led_yellow = 	1;
 int led_green =		2;
