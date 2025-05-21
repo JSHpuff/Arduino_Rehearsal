@@ -9,7 +9,7 @@ servo myServo;
 
 int const potPin = A0; 	//analog pin A
 int potVal;				//stores value of pot
-int angle = 0;				//stores position of servo
+int angle = 0;			//stores position of servo
 
 void setup() {
   myServo.attach(9);	//tells board which pin the servo is on
